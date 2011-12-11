@@ -1,0 +1,7 @@
+Given a h*w square each solution will consist in a sequence of h "go
+down" actions and w "go right" actions. The solution is therefore
+determined by how many ways we can combine said actions. We want the
+number of "permutations with repetition of indistinguishable objects".
+
+In this specific case that's (h*w)!/h!*w!.
+Concretely: 40!/(20!*20!) = 137846528820.
