@@ -4,3 +4,4 @@
 *~
 *.fasl
 *.o
+*.class
